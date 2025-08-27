@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 700px;
+            height: 60px;
+            margin: 0 auto;
+             margin-top: 300px;
+        }
+
+        span{
+            cursor: pointer;
+        }
+
+        .bir{
+            background-color: rgb(2, 180, 2);
+        }
+
+        .ikki{
+            background-color: rgb(253, 253, 5);
+        }
+
+        .uch{
+            background-color: red;
+            transition-delay:30% ;
+        }
+
+        div{
+            width: 200px;
+            height: 60px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 0  auto;
+            border: none;
+            border-radius: 20px;
+            font-size: 20px;
+            color: white;
+        }
+
+        button{
+            width: 200px;
+            height: 40px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: rgb(188, 185, 185);
+            border-radius: 20px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+ 
+    <div></div>
+
+
+<div class="box">
+    <button  onclick="messege('green', 'bir')">green</button>
+    <button  onclick="messege('sariq', 'ikki')">sariq</button>
+    <button  onclick="messege('qizil', 'uch')">qizil</button>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
